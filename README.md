@@ -3,11 +3,55 @@
 
 ## 机器学习框架
 
+当前流行的机器学习框架，Scikit-learn, tensorflow, xgboost, keras, NLT, gensim, numpy, 基本上都能使用Python Anaconda安装。
+
 TensorFlow
 https://lucky521.github.io/blog/design/2017/10/26/tensorflow.html
 
 XGBoost
 https://lucky521.github.io/blog/design/2018/03/25/boosting.html
+
+Scikit-Learn
+https://lucky521.github.io/blog/design/2016/12/28/scikit-learn.html
+
+
+## 机器学习方法
+
+特征工程
+https://lucky521.github.io/blog/design/2018/04/18/feature-engineering.html
+
+模型评价
+https://lucky521.github.io/blog/design/2017/01/01/metrics-to-evaluate-model.html
+
+提升方法
+https://lucky521.github.io/blog/design/2018/03/25/boosting.html
+
+深度学习
+https://lucky521.github.io/blog/design/2017/06/14/deep-learning.html
+
+CNN网络
+https://lucky521.github.io/blog/design/2017/12/21/cnn.html
+
+
+## 垂直领域应用
+
+图像分类
+https://lucky521.github.io/blog/design/2017/03/27/image-recognition.html
+
+自然语言处理
+https://lucky521.github.io/blog/design/2018/05/15/nlp-using-machine-learning.html
+
+搜索排序
+https://lucky521.github.io/blog/design/2018/02/23/search-tech.html
+
+
+## 相关Repro
+
+深度学习
+https://github.com/lucky521/deep-learning
+
+视觉图像
+https://github.com/lucky521/your-face
 
 
 
