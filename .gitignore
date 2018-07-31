@@ -2,3 +2,4 @@
 .DS_Store
 frameworks/tensorflow/data/
 frameworks/tensorflow/tensorflow_logs/
+.ipynb_checkpoints
