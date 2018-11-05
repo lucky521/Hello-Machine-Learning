@@ -78,6 +78,10 @@ https://github.com/lucky521/your-face
 
     有三个两个版本 https://www.coursera.org/learn/machine-learning
 
+MACHINE LEARNING YEARNING
+
+    https://github.com/AcceptedDoge/machine-learning-yearning-cn
+
 ### 分支课程 
 
 斯坦福 CS224N 自然语言处理nlp-with-deep-learning
