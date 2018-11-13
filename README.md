@@ -1,6 +1,9 @@
 # Hello-Machine-Learning
 
 
+
+# 我的机器学习笔记
+
 ## 机器学习框架
 
 当前流行的机器学习框架，Scikit-learn, tensorflow, xgboost, keras, NLT, gensim, numpy, 基本上都能使用Python Anaconda安装。
@@ -50,6 +53,9 @@ https://lucky521.github.io/blog/design/2018/02/23/search-tech.html
 
 ## 相关Repro
 
+当前项目
+https://github.com/lucky521/Hello-Machine-Learning
+
 深度学习
 https://github.com/lucky521/deep-learning
 
@@ -58,7 +64,36 @@ https://github.com/lucky521/your-face
 
 
 
-## 机器学习公开课
+
+
+
+# 机器学习资料整理
+
+## 书籍
+
+### 应用
+
+李沐《动手学深度学习》 https://zh.gluon.ai/
+
+Andrew Ng 《Machine Learning Yearning》
+
+### 理论
+
+李航《统计学习方法》
+
+周志华《机器学习》
+
+Ian Goodfellow 《Deep Learning》
+
+Machine Learning:A Probabilistic Perspective
+
+Pattern Recognition and Machine Learning
+
+The Elements of Statistical Learning
+
+
+
+## 公开课
 
 ### 基础课程
 
@@ -105,6 +140,11 @@ MACHINE LEARNING YEARNING
 deeplearning.ai
 
     https://mooc.study.163.com/course/deeplearning_ai-2001281002#/info
+
+
+
+
+
 
 
 
