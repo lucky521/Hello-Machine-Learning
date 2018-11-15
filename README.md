@@ -44,6 +44,9 @@ https://lucky521.github.io/blog/design/2017/12/21/cnn.html
 图像分类
 https://lucky521.github.io/blog/design/2017/03/27/image-recognition.html
 
+[深度学习实践之OpenCV](https://lucky521.github.io/blog/design/2017/12/01/opencv.html)
+
+
 自然语言处理
 https://lucky521.github.io/blog/design/2018/05/15/nlp-using-machine-learning.html
 
@@ -69,15 +72,25 @@ https://github.com/lucky521/your-face
 
 # 机器学习资料整理
 
-## 书籍
+## 门户资料
 
-### 应用
+[deeplearning.net](http://deeplearning.net/)
+
+
+## 书籍资料
+
+### 应用类书籍
 
 李沐《动手学深度学习》 https://zh.gluon.ai/
 
 Andrew Ng 《Machine Learning Yearning》
 
-### 理论
+[Michael Nielsen的神经网络入门资料](http://neuralnetworksanddeeplearning.com/about.html)
+
+[University of Montreal LISA lab 的深度学习教材](http://deeplearning.net/tutorial/deeplearning.pdf)
+
+
+### 理论类书籍
 
 李航《统计学习方法》
 
@@ -90,6 +103,18 @@ Machine Learning:A Probabilistic Perspective
 Pattern Recognition and Machine Learning
 
 The Elements of Statistical Learning
+
+
+## 经典论文和模型
+
+[深度学习经典论文集1](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap)
+
+[深度学习经典论文集2](https://github.com/terryum/awesome-deep-learning-papers)
+
+[神经网络架构模型图谱](https://github.com/hunkim/deep_architecture_genealogy)
+
+[机器学习问题与解决方案集](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems)
+
 
 
 
