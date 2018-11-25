@@ -79,7 +79,7 @@ https://github.com/lucky521/your-face
 
 ## 书籍资料
 
-### 应用类书籍
+### 应用实践类书籍
 
 李沐《动手学深度学习》 https://zh.gluon.ai/
 
@@ -88,6 +88,13 @@ Andrew Ng 《Machine Learning Yearning》
 [Michael Nielsen的神经网络入门资料](http://neuralnetworksanddeeplearning.com/about.html)
 
 [University of Montreal LISA lab 的深度学习教材](http://deeplearning.net/tutorial/deeplearning.pdf)
+
+[Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml)
+
+[Python Machine Learning](https://github.com/rasbt/python-machine-learning-book)
+
+[Deep learning with python](https://github.com/fchollet/deep-learning-with-python-notebooks)
+
 
 
 ### 理论类书籍
