@@ -9,22 +9,23 @@ from __future__ import print_function
 
 import os.path
 
-# This is a placeholder for a Google-internal import.
-
 import tensorflow as tf
 
 from inception import inception_model
-
 # /Users/liulu51/public-github/tensorflow-family/models/research/inception/inception
 
-tf.app.flags.DEFINE_string('checkpoint_dir', './tmp/inception_train',
+tf.app.flags.DEFINE_string('checkpoint_dir', '/Users/liulu51/lu-personal-file/lu-github/Hello-Machine-Learning/frameworks/tensorflow/serving/inception-model/model-convert/inception-ckpt',
                            """Directory where to read training checkpoints.""")
-tf.app.flags.DEFINE_string('output_dir', './tmp/inception_output',
+
+tf.app.flags.DEFINE_string('output_dir', './inception_output',
                            """Directory where to export inference model.""")
+
 tf.app.flags.DEFINE_integer('model_version', 1,
                             """Version number of the model.""")
+
 tf.app.flags.DEFINE_integer('image_size', 299,
                             """Needs to provide same value as in training.""")
+
 FLAGS = tf.app.flags.FLAGS
 
 NUM_CLASSES = 1000
@@ -52,7 +53,7 @@ def export():
     # Build inference model.
     # Please refer to Tensorflow inception model for details.
 
-    # Input transformation.
+    # Input transformation
     serialized_tf_example = tf.placeholder(tf.string, name='tf_example')
     feature_configs = {
         'image/encoded': tf.FixedLenFeature(
@@ -75,6 +76,7 @@ def export():
     class_descriptions = ['unused background']
     for s in synsets:
       class_descriptions.append(texts[s])
+    print(class_descriptions)
     class_tensor = tf.constant(class_descriptions)
 
     table = tf.contrib.lookup.index_to_string_table_from_tensor(class_tensor)
@@ -88,6 +90,7 @@ def export():
     with tf.Session() as sess:
       # Restore variables from training checkpoints.
       ckpt = tf.train.get_checkpoint_state(FLAGS.checkpoint_dir)
+      print(FLAGS.checkpoint_dir)
       if ckpt and ckpt.model_checkpoint_path:
         saver.restore(sess, ckpt.model_checkpoint_path)
         # Assuming model_checkpoint_path looks something like:
@@ -108,10 +111,8 @@ def export():
       builder = tf.saved_model.builder.SavedModelBuilder(output_path)
 
       # Build the signature_def_map.
-      classify_inputs_tensor_info = tf.saved_model.utils.build_tensor_info(
-          serialized_tf_example)
-      classes_output_tensor_info = tf.saved_model.utils.build_tensor_info(
-          classes)
+      classify_inputs_tensor_info = tf.saved_model.utils.build_tensor_info(serialized_tf_example)
+      classes_output_tensor_info = tf.saved_model.utils.build_tensor_info(classes)
       scores_output_tensor_info = tf.saved_model.utils.build_tensor_info(values)
 
       classification_signature = (
@@ -145,8 +146,7 @@ def export():
           signature_def_map={
               'predict_images':
                   prediction_signature,
-              tf.saved_model.signature_constants.
-              DEFAULT_SERVING_SIGNATURE_DEF_KEY:
+              tf.saved_model.signature_constants.DEFAULT_SERVING_SIGNATURE_DEF_KEY:
                   classification_signature,
           },
           main_op=tf.tables_initializer(),
