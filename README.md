@@ -42,17 +42,19 @@ https://lucky521.github.io/blog/design/2017/12/21/cnn.html
 ## 垂直领域应用
 
 图像分类
-https://lucky521.github.io/blog/design/2017/03/27/image-recognition.html
+https://lucky521.github.io/blog/machinelearning/2017/03/27/image-recognition.html
 
-[深度学习实践之OpenCV](https://lucky521.github.io/blog/design/2017/12/01/opencv.html)
-
+深度学习实践之OpenCV
+https://lucky521.github.io/blog/framework/2017/12/01/opencv.html
 
 自然语言处理
-https://lucky521.github.io/blog/design/2018/05/15/nlp-using-machine-learning.html
+https://lucky521.github.io/blog/machinelearning/2018/05/15/nlp-using-machine-learning.html
 
 搜索排序
-https://lucky521.github.io/blog/design/2018/02/23/search-tech.html
+https://lucky521.github.io/blog/tech/2018/02/23/search-tech.html
 
+个性化搜索+个性化推荐
+https://lucky521.github.io/blog/tech/2018/04/05/personalization-algorithm.html
 
 ## 相关Repro
 
@@ -121,6 +123,8 @@ The Elements of Statistical Learning
 [神经网络架构模型图谱](https://github.com/hunkim/deep_architecture_genealogy)
 
 [机器学习问题与解决方案集](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems)
+
+[推荐系统论文收集](https://github.com/wzhe06/Reco-papers)
 
 
 
