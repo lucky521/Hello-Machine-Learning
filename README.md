@@ -87,6 +87,8 @@ https://github.com/lucky521/your-face
 
 Andrew Ng 《Machine Learning Yearning》
 
+[Rules of Machine Learning: Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml/)
+
 [Michael Nielsen的神经网络入门资料](http://neuralnetworksanddeeplearning.com/about.html)
 
 [University of Montreal LISA lab 的深度学习教材](http://deeplearning.net/tutorial/deeplearning.pdf)
@@ -107,7 +109,7 @@ Andrew Ng 《Machine Learning Yearning》
 
 Ian Goodfellow 《Deep Learning》
 
-Machine Learning:A Probabilistic Perspective
+[Machine Learning:A Probabilistic Perspective](https://www.cs.ubc.ca/~murphyk/MLbook/)
 
 Pattern Recognition and Machine Learning
 
