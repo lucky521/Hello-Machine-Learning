@@ -9,34 +9,34 @@
 当前流行的机器学习框架，Scikit-learn, tensorflow, xgboost, keras, NLT, gensim, numpy, 基本上都能使用Python Anaconda安装。
 
 TensorFlow
-https://lucky521.github.io/blog/design/2017/10/26/tensorflow.html
+https://lucky521.github.io/blog/machinelearning/2017/10/26/tensorflow.html
 
 XGBoost
-https://lucky521.github.io/blog/design/2018/03/25/boosting.html
+https://lucky521.github.io/blog/machinelearning/2018/03/25/boosting.html
 
 Scikit-Learn
-https://lucky521.github.io/blog/design/2016/12/28/scikit-learn.html
+https://lucky521.github.io/blog/machinelearning/2016/12/28/scikit-learn.html
 
 
 ## 机器学习方法
 
 特征工程
-https://lucky521.github.io/blog/design/2018/04/18/feature-engineering.html
+https://lucky521.github.io/blog/machinelearning/2018/04/18/feature-engineering.html
 
 模型评价
-https://lucky521.github.io/blog/design/2017/01/01/metrics-to-evaluate-model.html
+https://lucky521.github.io/blog/machinelearning/2017/01/01/metrics-to-evaluate-model.html
 
 提升方法
-https://lucky521.github.io/blog/design/2018/03/25/boosting.html
+https://lucky521.github.io/blog/machinelearning/2018/03/25/boosting.html
 
 最优化方法
-https://lucky521.github.io/blog/design/2018/07/31/optimization-method.html
+https://lucky521.github.io/blog/machinelearning/2018/07/31/optimization-method.html
 
 深度学习
-https://lucky521.github.io/blog/design/2017/06/14/deep-learning.html
+https://lucky521.github.io/blog/machinelearning/2017/06/14/deep-learning.html
 
 CNN网络
-https://lucky521.github.io/blog/design/2017/12/21/cnn.html
+https://lucky521.github.io/blog/machinelearning/2017/12/21/cnn.html
 
 
 ## 垂直领域应用
