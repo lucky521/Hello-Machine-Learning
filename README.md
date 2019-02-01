@@ -126,7 +126,9 @@ The Elements of Statistical Learning
 
 [机器学习问题与解决方案集](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems)
 
-[推荐系统论文收集](https://github.com/wzhe06/Reco-papers)
+[推荐系统论文收集1](https://github.com/wzhe06/Reco-papers)
+
+[推荐系统论文收集2](https://github.com/hongleizhang/RSPapers)
 
 
 
