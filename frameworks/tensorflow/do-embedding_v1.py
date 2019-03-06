@@ -19,7 +19,7 @@ pprint(vars(word2vec))
 '''
 
 
-# need fastTest from Facebook github
+# need fastText from Facebook github
 f = fastText.load_model(data_bin)
 words = f.get_words()
 print(str(len(words)) + " " + str(f.get_dimension()))

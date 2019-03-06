@@ -1,3 +1,5 @@
+# python2 using tflearn
+
 import numpy as np
 from tensorflow.contrib import learn
 import tflearn
@@ -16,10 +18,13 @@ for it in data_1:
     data.append(it[1])
 
 print data
+
 tokenizer = learn.preprocessing.VocabularyProcessor(10)
 data = list(tokenizer.fit_transform(data))
 data = tflearn.data_utils.pad_sequences(data, maxlen=10)
+
 print data
+print labels
 
 trainX = data
 trainY = labels
@@ -28,7 +33,8 @@ testX = data
 testY = labels
 
 def run():
-    net = tflearn.input_data(shape=[None, 1])
+    # init net struct from input_data
+    net = tflearn.input_data(shape=[None, 10])
     print net
     # embed int vector to compact real vector
     net = tflearn.embedding(net, input_dim=10000, output_dim=128)
