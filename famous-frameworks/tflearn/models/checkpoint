@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/liulu51/lu-personal-file/lu-github/Hello-Machine-Learning/frameworks/tflearn/models/lstm.tfl"
+all_model_checkpoint_paths: "/Users/liulu51/lu-personal-file/lu-github/Hello-Machine-Learning/frameworks/tflearn/models/lstm.tfl"

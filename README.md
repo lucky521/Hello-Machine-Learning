@@ -121,6 +121,8 @@ Pattern Recognition and Machine Learning
 
 The Elements of Statistical Learning
 
+《神经网络与深度学习》(https://nndl.github.io/nndl-book.pdf)
+
 
 ## 经典论文和模型
 

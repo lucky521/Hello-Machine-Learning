@@ -1,0 +1,18 @@
+# Hashes of file build rules.
+85d929d9ea1623e8cd06a014ad62bbb6 CMakeFiles/tfserving_headers
+3f79de01a6339e569fe145d5cde8246b proto-src/tensorflow_serving/apis/classification.grpc.pb.cc
+117ac2a891f62f6f67a7d3a65a70e7c3 proto-src/tensorflow_serving/apis/classification.pb.cc
+b22142672758eb1fd3647e7e508a68a9 proto-src/tensorflow_serving/apis/get_model_metadata.grpc.pb.cc
+a7be54d49315143e0210106025a87ab8 proto-src/tensorflow_serving/apis/get_model_metadata.pb.cc
+fa20d9e56bf6390011bf9204e85c3f13 proto-src/tensorflow_serving/apis/inference.grpc.pb.cc
+54bf9eb28465fd54e2b02f63a24ed6a6 proto-src/tensorflow_serving/apis/inference.pb.cc
+01ebec1c6e4f974cfb27bb63cc215af1 proto-src/tensorflow_serving/apis/input.grpc.pb.cc
+2c7bf17a928c8924881839c3f5a12be7 proto-src/tensorflow_serving/apis/input.pb.cc
+ffaca578e7a3953e7958980fda50c5da proto-src/tensorflow_serving/apis/model.grpc.pb.cc
+962be3aaba9dcc3d745b295011feff2e proto-src/tensorflow_serving/apis/model.pb.cc
+4bdcade693ee9de7e2a5ebcacecd8cd0 proto-src/tensorflow_serving/apis/predict.grpc.pb.cc
+c7683f7cb2cc4d4698665dfc355df8bf proto-src/tensorflow_serving/apis/predict.pb.cc
+e8fe5bf9be7e3d7734552d5c0935b920 proto-src/tensorflow_serving/apis/prediction_service.grpc.pb.cc
+739ebf94f339509cb84634e5dedf2ffe proto-src/tensorflow_serving/apis/prediction_service.pb.cc
+cd13a38067cb98ee29d5a0949879a207 proto-src/tensorflow_serving/apis/regression.grpc.pb.cc
+01bd46d99d8a9f283312a0343988eb52 proto-src/tensorflow_serving/apis/regression.pb.cc
