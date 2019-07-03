@@ -8,6 +8,8 @@ import sys
 import tensorflow as tf
 
 from tensorflow.examples.tutorials.mnist import input_data
+from tensorflow.python.client import timeline
+
 
 FLAGS = None
 
@@ -149,9 +151,17 @@ def train():
         train_writer.add_run_metadata(run_metadata, 'step%03d' % i)
         train_writer.add_summary(summary, i)
         print('Adding run metadata for', i)
+
+        fetched_timeline = timeline.Timeline(run_metadata.step_stats)
+        chrome_trace = fetched_timeline.generate_chrome_trace_format()
+        with open('ludev.trace', 'w') as f:
+            f.write(chrome_trace)
+        print('Chrome Trace File write in %s' % 'ludev.trace')
+
       else:  # Record a summary
         summary, _ = sess.run([merged, train_step], feed_dict=feed_dict(True))
         train_writer.add_summary(summary, i)
+  
   train_writer.close()
   test_writer.close()
 
