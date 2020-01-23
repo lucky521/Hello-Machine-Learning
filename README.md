@@ -80,9 +80,11 @@ https://github.com/lucky521/your-face
 
 # 机器学习资料整理
 
-## 门户资料
+## 门户资料收集
 
 [deeplearning.net](http://deeplearning.net/)
+
+https://github.com/yanshengjia/ml-road
 
 
 ## 书籍资料
