@@ -1,12 +1,6 @@
 # Hello-Machine-Learning
 
-# 应用实践
-
-## keras
-
-## tflearn
-
-
+本页汇集了机器学习相关的理论和实践学习内容。
 
 # 我的机器学习笔记
 
@@ -80,14 +74,14 @@ https://github.com/lucky521/your-face
 
 # 机器学习资料整理
 
-## 门户资料收集
+## 资料门户
 
 [deeplearning.net](http://deeplearning.net/)
 
-https://github.com/yanshengjia/ml-road
+[Machine Learning Road](https://github.com/yanshengjia/ml-road)
 
 
-## 书籍资料
+## 资料书籍
 
 ### 应用实践类书籍
 
@@ -126,7 +120,7 @@ The Elements of Statistical Learning
 《神经网络与深度学习》(https://nndl.github.io/nndl-book.pdf)
 
 
-## 经典论文和模型
+## 经典模型/经典方案论文
 
 [深度学习经典论文集1](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap)
 
@@ -198,9 +192,9 @@ deeplearning.ai
 
 
 
-# 知识图谱
+# 信息图谱
 
-# 机器学习的知识图谱
+## 机器学习的知识图谱
 
 ![](images/feature-process.jpg)
 
@@ -210,7 +204,7 @@ deeplearning.ai
 
 
 
-# 深度学习知识图谱
+## 深度学习知识图谱
 
 ![](images/nn-history.jpg)
 
@@ -220,6 +214,26 @@ deeplearning.ai
 ![](images/nns.jpg)
 
 
-# 机器学习算法工程师技能图谱
+## 机器学习算法工程师技能图谱
 
 ![](images/tech-tree.jpeg)
+
+
+## 机器学习速查表
+https://medium.com/@kailashahirwar/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5
+
+https://github.com/kailashahirwar/cheatsheets-ai
+
+[AI Cheatsheets](https://aicheatsheets.com/)
+
+
+
+# 实践比赛
+
+## 赛事
+http://www.kaggle.com  数据挖掘比赛。
+
+## 比赛获奖的解决方案
+http://ndres.me/kaggle-past-solutions/
+
+https://github.com/geekinglcq/CDCS
