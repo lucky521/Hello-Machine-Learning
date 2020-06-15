@@ -208,7 +208,6 @@ deeplearning.ai
 
 ![](images/nn-history.jpg)
 
-
 ![](images/nn-arch.jpg)
 
 ![](images/nns.jpg)
@@ -217,6 +216,8 @@ deeplearning.ai
 ## 机器学习算法工程师技能图谱
 
 ![](images/tech-tree.jpeg)
+
+![](images/ml-engineer.png)
 
 
 ## 机器学习速查表
