@@ -1,9 +1,15 @@
 #coding=utf-8
+import horovod.tensorflow as hvd
 import numpy as np
 #import tensorflow as tf
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 tf.logging.set_verbosity(tf.logging.INFO)
+
+hvd.init()
+config = tf.ConfigProto()
+config.gpu_options.allow_growth = True
+config.gpu_options.visible_device_list = str(hvd.local_rank())
 
 # Build a dummy dataset
 d = 16
@@ -70,6 +76,9 @@ def model_fn(features, labels, mode, params):
     else:
         loss = tf.losses.sparse_softmax_cross_entropy(labels, logits)
         opt = tf.train.AdamOptimizer(learning_rate=params['learning_rate'])
+
+        opt = hvd.DistributedOptimizer(opt)
+
         train = opt.minimize(loss=loss, global_step=tf.train.get_global_step())
 
         metrics = {'accuracy': tf.metrics.accuracy(labels, preds)}
@@ -89,19 +98,16 @@ params = {
     'n_classes': 2
 }
 
-distrib = tf.distribute.MirroredStrategy(devices=["/gpu:0", "/gpu:1", "/gpu:2", "/gpu:3"])
-#distrib = tf.distribute.experimental.MultiWorkerMirroredStrategy()
-run_config = tf.estimator.RunConfig(train_distribute=distrib)
+model_dir = './test_model_r' + str(hvd.rank()) 
 
 model = tf.estimator.Estimator(
     model_fn=model_fn,
     params=params,
-    config=run_config,
-    model_dir='./test_model')
+    model_dir=model_dir)
 
-tf.logging.set_verbosity(tf.logging.INFO)
+bcast_hook = hvd.BroadcastGlobalVariablesHook(0)
 
-model.train(input_fn=train_input_fn, steps=2000)
+model.train(input_fn=train_input_fn, steps=2000, hooks=[bcast_hook])
 
 result = model.evaluate(input_fn=test_input_fn)
 print("result:", result)
@@ -109,5 +115,3 @@ print("result:", result)
 pred = model.predict(input_fn=predict_input_fn)
 for p in pred:
     print("pred:", p)
-
- 
