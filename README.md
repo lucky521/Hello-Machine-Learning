@@ -228,6 +228,11 @@ https://github.com/kailashahirwar/cheatsheets-ai
 [AI Cheatsheets](https://aicheatsheets.com/)
 
 
+## 数学的深渊
+
+![](images/deep_in_math.jpeg)
+
+
 
 # 实践比赛
 
