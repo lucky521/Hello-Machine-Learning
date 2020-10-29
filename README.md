@@ -161,6 +161,11 @@ MACHINE LEARNING YEARNING
 
     https://github.com/AcceptedDoge/machine-learning-yearning-cn
 
+李宏毅机器学习课程 
+
+    https://datawhalechina.github.io/leeml-notes/#/
+
+
 ### 分支课程 
 
 斯坦福 CS224N 自然语言处理nlp-with-deep-learning
